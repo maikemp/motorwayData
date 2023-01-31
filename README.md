@@ -1,5 +1,5 @@
-# motorway_data
-This is the repository for the data described in Metz-Peeters (2022). It contains all the code required to construct the data set from the individual data sources. Furthermore, it will soon contain an open version of the constructed data set, in accordance with the individual data licenses (Status: January 31, 2023). This new dataset will be provided under the Creative Commons license [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+# motorwayData
+This is the repository for the data described in Metz-Peeters (2022). It contains all the code required to construct the data set from the individual data sources. Furthermore, it will soon contain an open version of the constructed data set, in accordance with the individual data licenses (Status: January 31, 2023). This new dataset will be provided under the Creative Commons license [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). 
 
 ## Data sources used
 | Provider  | Data                                                            |Links|License|Consequence|

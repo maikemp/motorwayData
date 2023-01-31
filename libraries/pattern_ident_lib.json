@@ -1,0 +1,7 @@
+{
+    "remove_col_starts": ["join_COUNT", "COUNT", "fixme", "Join_Coun", "one_direc", "official_r", "fixme", "maxwidth_l"],
+    "relabel_col_starts": ["bridge", "tunnel", "maxspeed_v"],
+    "relabel_dict": {"missing":0, "no":0, "yes":1, "viaduct":1, "covered":1, 
+                     "avalanche_protector":1, "peak_traffic":1, "obstruction":1},
+    "road_length_tolerance": 20
+}

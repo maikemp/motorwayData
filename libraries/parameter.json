@@ -1,0 +1,16 @@
+{
+    "BL": ["Baden-Wuerttemberg","Bayern","Brandenburg","Bremen", "Hamburg", "Hessen", "Niedersachsen", "Rheinland-Pfalz", "Saarland", "Sachsen-Anhalt", "Sachsen", "Schleswig-Holstein", "Nordrhein-Westfalen", "Thueringen"],
+    "BL_2017":["Baden-Wuerttemberg", "Bayern", "Brandenburg", "Bremen", "Hamburg", "Hessen", "Niedersachsen", "Rheinland-Pfalz", "Saarland", "Sachsen-Anhalt", "Sachsen", "Schleswig-Holstein"],
+    "BL_2018":["Baden-Wuerttemberg", "Bayern", "Brandenburg", "Bremen", "Hamburg", "Hessen", "Niedersachsen", "Rheinland-Pfalz", "Saarland", "Sachsen-Anhalt", "Sachsen", "Schleswig-Holstein", "Berlin"], 
+    "BL_2019":["Baden-Wuerttemberg", "Bayern", "Brandenburg", "Bremen", "Hamburg", "Hessen", "Niedersachsen", "Rheinland-Pfalz", "Saarland", "Sachsen-Anhalt", "Sachsen", "Schleswig-Holstein", "Berlin", "Nordrhein-Westfalen", "Thueringen"],
+    "year": [2017, 2018, 2019],
+    "frequency": "annual",
+    "dates": ["2017-07-01","2018-07-01","2019-07-01"],
+    "reference_date": "2019-07-01",
+    "spacial_reference": "ETRS 1989 UTM Zone 32N 8stellen",
+    "section_length_m": 500,
+    "id_length": 10,
+    "in_seg_id_length": 4,
+    "std_slipway_length": 200,
+    "max_link_length": 400
+}

@@ -1,0 +1,11 @@
+{
+    "add_list": ["fixed", "maxspeed:lanes", "maxspeed:reason", "official_ref"],
+    "add_sw": ["highway","histor"],
+    "excl_list": ["converted","cutting","ele","exit_to","image","loc_name",
+             "man_mande", "mapillary", "tmc"],
+    "excl_sw": ["TMC", "addr", "destination", "note", "overtaking","reg_",
+           "shoulder", "source", "wiki"],
+    "repl_if_miss": {"ref":"official_ref"},
+    "min_keep_feature_num": 100,
+    "rename_dict": {"maxspeed:":"ms:", "conditional": "cond", "variable":"vari", "trailer":"tra", "overtaking":"ot", "temporary":"temp"}
+}

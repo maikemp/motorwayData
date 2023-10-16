@@ -203,7 +203,7 @@ def concat_year_data(path_dict, year, param, max_extent=False):
     df_zi.drop(columns=['bauw_mode'], inplace=True)
     # Substanzwert = substantial index, Gebrauchswert = performance index
     cols = [x for x in df_zi.columns if 'bauw' in x or 'geb' in x or 'bip' in x]
-    newc = [x.replace('bauw','surf').replace('geb','perf').replace('bip','gdp') 
+    newc = [x.replace('bauw','surf').replace('geb','perf')
             for x in cols]
     df_zi.rename(columns=dict(zip(cols, newc)),inplace=True)
     colname_dict.update({'zeb_inkar':list(df_zi.columns)})

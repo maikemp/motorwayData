@@ -36,10 +36,8 @@ sd_lib = json.load(open(os.path.join(pp['lib'], 'sociodemography_lib.json'),
 sr = arcpy.SpatialReference(param['spacial_reference'])
 
 pp_inkar_out = os.path.join(pp["data_out_inkar"],"kreise_inkar.shp")
-inkar_files = [os.path.join(pp['data_in_inkar'],x) for x in 
-                     os.listdir(pp['data_in_inkar']) if x.endswith('.csv')]
-bkg_shps = [os.path.join(pp['data_in_BL'],x) for x in 
-                     os.listdir(pp['data_in_BL']) if x.endswith('.shp')]
+inkar_files = ['inkar_extract.csv']
+krs_shp = os.path.join(pp['data_in_BL'],"VG250_KRS.shp")
 aggregates = ['Landkreis', 'Oberzentrum', 'krsfr. Stadt']
 
 
@@ -49,7 +47,7 @@ df_krs = sociodem.get_krs_df(aggregates, inkar_files)
 df_krs['random'] = np.random.uniform(0, 1, len(df_krs))
 sd_lib['rename_dict'].update({'random':'random'})
 # Merge to shape file and adjust spatial reference system.
-df = sociodem.merge_krs_to_bkg_and_clean(df_krs, bkg_shps[1], sd_lib)
+df = sociodem.merge_krs_to_bkg_and_clean(df_krs, krs_shp, sd_lib)
 df.spatial.to_featureclass(r"in_memory\kreise")
 arcpy.management.Project(r"in_memory\kreise", pp_inkar_out, sr)
 arcpy.management.Delete([r"in_memory\kreise"])

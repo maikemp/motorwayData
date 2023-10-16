@@ -1,36 +1,13 @@
 {
     "rename_dict": {
-        "Raumeinheit":"raumeinh",
-        "Arbeitslosenquote":"unemp_quo",
         "Erwerbsquote":"emp_quo",
-        "Erwerbsquote Frauen":"eq_frau",
         "Einwohner von 18 bis unter 25 Jahren":"pop_18_25",
         "Einwohner 65 Jahre und älter":"pop_ol_65",
-        "Durchschnittsalter der Bevölkerung ":"mean_age",
-        "Lebenserwartung":"life_exp",
-        "Geschlechterproportion insgesamt":"gen_prop",
         "Frauenanteil":"fem_share",
         "Haushaltseinkommen":"hh_inc",
-        "Arbeitsvolumen":"workload",
-        "Medianeinkommen":"med_inc",
-        "Gewerbesteuer":"gew_tax",
-        "Steuerkraft":"tax_rev",
-        "GRW Infrastruktur (langfristig)":"grw_infr_l",
-        "GRW Infrastruktur (kurzfristig)":"grw_infr_k",
         "Einwohnerdichte":"pop_dens",
-        "Einwohner-Arbeitsplatz-Dichte":"popem_dens",
-        "Pendler mit Arbeitsweg 50 km und mehr":"comm_50",
-        "Pendler mit Arbeitsweg 150 km und mehr":"comm_150",
-        "Pendler mit Arbeitsweg 300 km und mehr":"comm_300",
-        "Umsatzsteuer":"ums_tax",
-        "Bruttoinlandsprodukt je Erwerbstätigen":"bip_p_emp",
-        "Bruttoinlandsprodukt je Einwohner":"bip_p_cap",
-        "Einwohnerdichte.1":"pop_dens_1",
-        "Bevölkerung":"bev",
-        "Siedlungsdichte":"siedl_dens",
-        "Ärzte je  Einwohner":"doc_p_cap",
+        "Bruttoinlandsprodukt je Einwohner":"gdp_p_cap",
         "Ländlichkeit":"rurality",
-        "Raumordnungsregion":"ror",
-	"Pkw-Dichte":"pcar_dens"
+	    "Pkw-Dichte":"pcar_dens"
 	}
 }

@@ -5,6 +5,7 @@ This is the repository for the data described in Metz-Peeters (2022). It contain
 
 A guide on how to construct the final dataset can be found in the Documentation.pdf 
 
+`/projects/mandatory_speed_limits/` contains the code from the analyses in Metz-Peeters (2022).
 
 ## Data sources used
 <table class="tg">

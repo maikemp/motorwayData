@@ -1,7 +1,10 @@
 # motorwayData
-This is the repository for the data described in Metz-Peeters (2022). It contains all the code required to construct the data set from the individual data sources. Furthermore, it will soon contain an open version of the constructed data set, in accordance with the individual data licenses (Status: January 31, 2023). This new dataset will be provided under the Creative Commons license [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). 
+This is the repository for the data described in Metz-Peeters (2022). It contains all the code required to construct the data set from the individual data sources. Furthermore, `/open_data/` contains open versions of the constructed data sets, in accordance with the individual data licenses (Status: January 31, 2023). These new datasets are provided under the Creative Commons license [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). 
 
-A guide on how to construct the final dataset and better commenting and cleaning of the code will follow. 
+`data.csv` contains the main analysis data set, `me_data_imputed.csv` contains the imputed maximum extent data set with some missing crash data, and `geo.shp` contains the network shape with IDs, so the dataset can be merged to it. 
+
+A guide on how to construct the final dataset can be found in the Documentation.pdf 
+
 
 ## Data sources used
 <table class="tg">

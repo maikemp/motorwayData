@@ -21,12 +21,6 @@ cols <- get_colnames(df_f)
 n_trees = 10000 # Set to 10000
 n_trees_tune = 50 # Set to 50
 
-# Only for testing:
-# limit = "maxspeed_100"
-# outcome = "total_rate"
-# exp = "a"
-
-
 
 # a:    Estimation is not cluster robust. 
 # b:    Individual estimations are cluster robust but splitting is not. 

@@ -9,7 +9,7 @@ import json
 import os 
 import re
 from src.process_numdata.functions.concat_functions import load_csv_and_fix_id
-import src.projects.mandatory_speed_limits.functions.descriptives_functions as descr
+import projects.mandatory_speed_limits.functions.descriptives_functions as descr
 
 from project_paths import get_project_paths, get_params
 

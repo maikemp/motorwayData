@@ -8,7 +8,7 @@ import json
 import pandas as pd
 
 from project_paths import get_project_paths
-import src.projects.mandatory_speed_limits.functions.visualize_functions as visual
+import projects.mandatory_speed_limits.functions.visualize_functions as visual
 from src.process_numdata.functions.concat_functions import load_csv_and_fix_id
 
 

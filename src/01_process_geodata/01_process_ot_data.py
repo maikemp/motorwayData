@@ -18,17 +18,6 @@ from project_paths import get_project_paths, get_params
 
 arcpy.env.overwriteOutput = True
 
-##
-#
-# import geopandas
-# date = dates[2]
-# gdf = geopandas.read_file(os.path.join(pp['data_in_ot'], 
-#                                        'motorways_DE_'+date+'.geojson'))
-
-# gdf[[x for x in gdf.columns if x.startswith('construct')]].count()
-#
-# #
-# ## 
 
 pp = get_project_paths()
 param = get_params(path=os.path.join(pp['lib'], 'parameter.json'))

@@ -2,6 +2,8 @@
 data/
 *.docx
 *.mmap
+*.jpeg
+*.mmap.~$lock
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -167,5 +169,4 @@ vignettes/*.pdf
 .Renviron
 
 # Report output files
-**.pdf
 

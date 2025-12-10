@@ -40,7 +40,7 @@ A guide on how to construct the final dataset can be found in the Documentation.
     <td class="tg-0pky">Bundesanstalt für Straßenwesen (BASt, Federal Highway Research Institute)</td>
     <td class="tg-0pky">Bundesfernstraßennetz (BISStra) (Federal highway network)</td>
     <td class="tg-sg5v">location</td>
-    <td class="tg-0pky"><a href="https://www.bast.de/DE/Verkehrstechnik/Fachthemen/Daten/Daten-BISStra.html?nn=1817946" target="_blank" rel="noopener noreferrer"><span style="color:#905">Download</span></a></td>
+    <td class="tg-0pky"><a href="https://www.bast.de/daten-bisstra" target="_blank" rel="noopener noreferrer"><span style="color:#905">Download</span></a></td>
     <td class="tg-0pky"><a href="https://www.govdata.de/web/guest/suchen/-/details/datensatz-bundesfernstrassennetzcc7e0" target="_blank" rel="noopener noreferrer"><span style="color:#905">License defined</span></a>, <a href="http://www.gesetze-im-internet.de/geonutzv/" target="_blank" rel="noopener noreferrer"><span style="color:#905">GeoNutzV</span></a></td>
     <td class="tg-0pky">Open use under attribution</td>
   </tr>
@@ -48,14 +48,14 @@ A guide on how to construct the final dataset can be found in the Documentation.
     <td class="tg-0pky">BASt</td>
     <td class="tg-0pky">Automatische Zählstellen 2017-2019 (automatic counting stations)</td>
     <td class="tg-sg5v" rowspan="2"><span style="font-weight:normal">AADT, AADT_HT, HT_share, MSV50, HT_share_MSV, AADT_day, AADT_night, night_share, sunday, holiday</span><br></td>
-    <td class="tg-0pky"><a href="https://www.bast.de/DE/Verkehrstechnik/Fachthemen/v2-verkehrszaehlung/zaehl_node.html;jsessionid=9BE1F5EC97952EEFAB21C06D3F0BFD7B.live11314" target="_blank" rel="noopener noreferrer"><span style="color:#905">Downloads</span></a></td>
+    <td class="tg-0pky"><a href="https://www.bast.de/DE/Themen/Digitales/HF_1/Massnahmen/verkehrszaehlung/zaehl_node.html" target="_blank" rel="noopener noreferrer"><span style="color:#905">Downloads</span></a></td>
     <td class="tg-0pky"><a href="https://www.mcloud.de/web/guest/suche/-/results/detail/6CD31C11-50E5-4DB3-A7C7-8CA9774B525B" target="_blank" rel="noopener noreferrer"><span style="color:#905">License defined</span></a>, <a href="https://www.govdata.de/dl-de/by-nc-1-0" target="_blank" rel="noopener noreferrer"><span style="color:#905">Datenlizenz Deutschland Namensnennung - Version 1.0?</span></a></td>
     <td class="tg-0pky">Open use under attribution</td>
   </tr>
   <tr>
     <td class="tg-0pky">BASt</td>
     <td class="tg-0pky">Fortschreibung der SVZ 2015 und der termporären Messung 2016 bis 2019 auf das Jahr 2019 (Extrapolation of traffic counts of 2015 and of temporary measurements of 2016 to 2019.)</td>
-    <td class="tg-0pky"><a href="https://www.bast.de/DE/Statistik/Verkehrsdaten/Manuelle-Zaehlung.html" target="_blank" rel="noopener noreferrer"><span style="color:#905">Download</span></a></td>
+    <td class="tg-0pky"><a href="https://www.bast.de/DE/Publikationen/Statistik/Verkehrsdaten/Manuelle-Zaehlung.htm" target="_blank" rel="noopener noreferrer"><span style="color:#905">Download</span></a></td>
     <td class="tg-0pky">Unclear, waiting for response</td>
     <td class="tg-0pky">Unclear</td>
   </tr>
